@@ -9,7 +9,7 @@ from datetime import datetime
 # ==================== KONFIGURASI (PAKAI PUNYA LO) ====================
 API_ID = 32170185
 API_HASH = "27fdeb3b05889ef614903a87cada5e72"
-BOT_TOKEN = "8118416331:AAFyOJFEhUsIanfffOLbJf3bXZd8ZvXFAB0"
+BOT_TOKEN = "8573079275:AAFW4xI2BwmjuSm_kdzGHWVjAWqMiPj5HBM"
 
 logging.basicConfig(level=logging.INFO)
 bot = Client("zieesecuritybot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
