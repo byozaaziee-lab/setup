@@ -7,9 +7,9 @@ from pyrogram.errors import AuthKeyInvalid, SessionRevoked, UserDeactivated, Flo
 from datetime import datetime
 
 # ==================== KONFIGURASI (PAKAI PUNYA LO) ====================
-API_ID = 32170185
-API_HASH = "27fdeb3b05889ef614903a87cada5e72"
-BOT_TOKEN = "8573079275:AAFW4xI2BwmjuSm_kdzGHWVjAWqMiPj5HBM"
+API_ID = 31368595
+API_HASH = "030eabf98701ef1678f24e0eacdba7ef"
+BOT_TOKEN = "7904209711:AAHhK-HoACTd2mOLDnuP_9vUNxpab9evEr4"
 
 logging.basicConfig(level=logging.INFO)
 bot = Client("zieesecuritybot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
