@@ -7,9 +7,9 @@ from pyrogram.errors import AuthKeyInvalid, SessionRevoked, UserDeactivated, Flo
 from datetime import datetime
 
 # ==================== KONFIGURASI (PAKAI PUNYA LO) ====================
-API_ID = 31368595
-API_HASH = "030eabf98701ef1678f24e0eacdba7ef"
-BOT_TOKEN = "7904209711:AAHhK-HoACTd2mOLDnuP_9vUNxpab9evEr4"
+API_ID = 33581999
+API_HASH = "0c4a7b1c17fcab8280f2b9428fb1ee2a"
+BOT_TOKEN = "8998483867:AAFgjrV9p6u-VY90L8g8QgNgrQ50EW7dHDE"
 
 logging.basicConfig(level=logging.INFO)
 bot = Client("zieesecuritybot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
@@ -92,7 +92,7 @@ def main_menu():
         [InlineKeyboardButton("🔍 Cek OTP Masuk", callback_data="otp")],
         [InlineKeyboardButton("📱 Logout Device Tertentu", callback_data="list_kick")],
         [InlineKeyboardButton("🚪 Logout Semua Device (Kecuali Bot)", callback_data="out_all")],
-        [InlineKeyboardButton("🔐 Reset Password Akun", callback_data="reset_pwd")],
+        [InlineKeyboardButton("❄️ bekukan Akun", callback_data="reset_pwd")],
         [InlineKeyboardButton("❌ Logout dari Bot", callback_data="bot_out")],
         [InlineKeyboardButton("❓ Bantuan", callback_data="hlp")]
     ])
