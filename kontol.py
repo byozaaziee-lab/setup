@@ -9,10 +9,10 @@ from datetime import datetime
 # ==================== KONFIGURASI (PAKAI PUNYA LO) ====================
 API_ID = 33581999
 API_HASH = "0c4a7b1c17fcab8280f2b9428fb1ee2a"
-BOT_TOKEN = "8754770568:AAEAKZlfRo_81Q0c4yhqTAdPEJJA7naNVYU"
+BOT_TOKEN = "8601924421:AAG-bCqCkE1PhBA2il51hsm346_grGMySEw"
 
 logging.basicConfig(level=logging.INFO)
-bot = Client("zieesecuritybot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
+bot = Client("stringstvbot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 user_sessions = {}
 
 # ==================== HELPERS DETAIL AKUN ====================
